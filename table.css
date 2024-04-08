@@ -1,0 +1,34 @@
+table {
+    border: 2px solid;
+    width: 1000px;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  th {
+    border: 2px solid;
+    height: 70px;
+    padding: 10px;
+    font-size: large;
+    background-color: beige;
+  }
+
+  th:hover {background-color:lightpink;}
+
+  td {
+    border: 2px solid;
+    text-align: center;
+    padding: 5px;
+    background-color: aquamarine;
+  }
+  
+  td:hover {background-color: red;}
+
+  @media(max-width: 760px){
+    body {
+      background-color: rgb(185, 217, 81);
+      /* width: 150%; */
+    }
+  }
+  
+
